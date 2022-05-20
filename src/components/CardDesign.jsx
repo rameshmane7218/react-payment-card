@@ -26,7 +26,7 @@ export const CardDesign = ({
         <div>
           <img src={logo} alt="" width="60px" />
         </div>
-        <div className={style.arrow}>-></div>
+        <div className={style.arrow}><i class="fa-solid fa-arrow-right"></i></div>
       </div>
     </div>
   );
