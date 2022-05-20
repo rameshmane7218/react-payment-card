@@ -1,0 +1,39 @@
+.formData {
+    /* border: 1px solid blue; */
+    width: 400px;
+    /* margin: auto; */
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
+  }
+  .formData form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* border: 1px solid red; */
+    width: 80%;
+  }
+  .formData form input {
+    flex: 1;
+    /* max-width: 300px; */
+    padding: 5px;
+    margin: 5px 0;
+  }
+  .formData form input[type="submit"] {
+    color: blue;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid blue;
+  }
+  .formData form input[type="submit"]:active {
+    background-color: blue;
+    color: white;
+  }
+  .formData form label {
+    margin: 10px 0 5px 0;
+  }
+  

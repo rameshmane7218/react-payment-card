@@ -1,0 +1,38 @@
+.mainCard {
+    min-width: 400px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+  }
+  .mainCard h1 {
+    margin: 0;
+  }
+  
+  .mainCard > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+  }
+  
+  .mainCard > div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* border: 1px solid; */
+  }
+  .caseStudy {
+    color: white;
+    background-color: black;
+    padding: 8px;
+    width: 90px;
+    text-align: center;
+  }
+  .arrow {
+    font-size: 28px;
+  }
+  
